@@ -14,6 +14,10 @@
     import sys
     print(sys.exec_prefix)
     ```
+    ```
+    >>> print(sys.exec_prefix)
+    C:\Program Files\Blender Foundation\Blender 3.3\3.3\python
+    ```
 3. 記下顯示的路徑，並關閉Blender。
 4. 在命令行中使用記錄的Python路徑來安裝`pip`：
     ```bash

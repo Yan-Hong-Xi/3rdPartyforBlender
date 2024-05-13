@@ -29,6 +29,16 @@
     ```bash
     "<Blender Python路徑>\bin\python.exe" -m pip install opencv-python --force-reinstall
     ```
+## 驗證套件
+
+安裝完成後，可以透過Blender Python Console來檢查套件是否成功被安裝。
+1. 開啟Blender，並進入Scripting Workspace Window。
+2. 在Blender的Python Console執行以下命令
+    ```python
+    import cv2
+    cv2.__version__
+    ```
+    <img src="Docs/python_pip_install_check.PNG" alt="示例圖片" style="max-width:100%;height:auto;">
 
 ## 重要說明
 
